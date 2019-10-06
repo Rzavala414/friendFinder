@@ -19,4 +19,4 @@ var people = [
 ];
 
 // exports the people array
-module.exports = array;
+module.exports = people;
