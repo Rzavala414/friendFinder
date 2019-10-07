@@ -8,8 +8,10 @@ module.exports = function(app) {
   });
 
   app.post("/api/friends", function(req, res) {
+    var newFriend = req.body;
         //TODO: Create a algorithm to check and see if the person is compatible with another person
-
+      res.json(newFriend);
+      people.push(newFriend)
   });
 
   app.post("/api/clear", function(req, res) {

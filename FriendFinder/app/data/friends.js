@@ -15,7 +15,8 @@ var people = [
             4,
             1
         ]
-    }
+    },
+    
 ];
 
 // exports the people array
